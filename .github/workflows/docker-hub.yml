@@ -9,7 +9,7 @@ on:
 
 jobs:
   docker:
-    if: ${{ github.repository_owner == 'fossasia' }}
+    if: ${{ github.repository_owner == 'marcoag' }}
     runs-on: ubuntu-latest
     steps:
       -
